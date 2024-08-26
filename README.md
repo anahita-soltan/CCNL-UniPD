@@ -6,9 +6,3 @@ The Data Source: https://zenodo.org/records/7976287
 
 note: I have changed the name of "epoch1" in the pretrained model directory to "epoch49" to match the rest of the directories for ease of use. The pretrained data is in fact from the epoch1.
 
-analyses:
-1) t-sne analysis and plots of all layers/models.
-2) Some extraction of activations of neurons for the purpose of exploratory DA.
-3) ANOVA analysis of pretrained and Adam models, with and without Normalization. Plots of ratios of significant neurons in different layers and between models.
-4) Calculation and visualization of Tuning Curves of the pooled & normalized neurons with the same Preferred Number.
-5) Using Nasr&Neider(2019) method to remove Summation Units (monotonic neurons) from the dataset, and recalculating Tuning Curves again with Nasr method. 

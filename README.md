@@ -7,20 +7,18 @@ The pretrained model directory originally labeled epoch1 has been renamed to epo
 This repository contains various analyses conducted on neuron activations and models. Each branch focuses on a different aspect of the analysis, with further details in the README files within each branch.
 
 ### Branches
-### 1.main
-Contains the core project files and general documentation.
 
-### 2.Tsne
-Focuses on t-SNE analysis and visualization of neuron activations.
+1. [Tsne](https://github.com/anahita-soltan/CCNL/tree/Tsne)  
+   Focuses on t-SNE analysis and visualization of neuron activations.
 
-### 3.Activation-Extraction
-For extraction of neuron activations for exploratory data analysis (EDA).
+2. [Activation-Extraction](https://github.com/anahita-soltan/CCNL/tree/Activation-Extraction)  
+   For extraction of neuron activations for exploratory data analysis (EDA).
 
-### 4.ANOVA-Analysis
-For comparing neuron counts across pre-trained and Adam models using ANOVA.
+3. [ANOVA-Analysis](https://github.com/anahita-soltan/CCNL/tree/ANOVA-Analysis)  
+   For comparing neuron counts across pre-trained and Adam models using ANOVA.
 
-### 5.Tuning-Curves
-For calculation and visualization of tuning curves for pooled and normalized neurons.
+4. [Tuning-Curves](https://github.com/anahita-soltan/CCNL/tree/Tuning-Curves)  
+   For calculation and visualization of tuning curves for pooled and normalized neurons.
 
-### 6.Nasr-analysis
-Includes analysis and modifications based on the Nasr & Neider (2019) method.
+5. [Nasr-analysis](https://github.com/anahita-soltan/CCNL/tree/Nasr-analysis)  
+   Includes analysis and modifications based on the Nasr & Neider (2019) method.

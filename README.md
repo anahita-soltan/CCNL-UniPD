@@ -1,24 +1,10 @@
-This project was carried out during my internship at the Cognitive Computational Neuroscience Lab (CCNL) at the University of Padova. The focus of the project was to analyze neuron activations and tuning curves in the pre-trained CORnet model, using similar methods described in this Nature article. Additional analyses were performed using data from the same source, available here.
+# Neuron Activation Extraction
 
-### Preprocessing Note:
-The pretrained model directory originally labeled epoch1 has been renamed to epoch49 for organizational consistency. However, the data being analyzed still originates from the first epoch (epoch1).
+This branch contains scripts for extracting neuron activations from different layers and models for exploratory data analysis (EDA). 
 
-### Project Overview
-This repository contains various analyses conducted on neuron activations and models. Each branch focuses on a different aspect of the analysis, with further details in the README files within each branch.
+## Overview
+The purpose of this task is to extract the activations of neurons from the pre-trained CORnet model and other models optimized using Adam and RMSProp. These activations will later be used for statistical comparisons and further analyses such as t-SNE or tuning curve evaluation.
 
-### Branches
-
-1. [Tsne](https://github.com/anahita-soltan/CCNL/tree/Tsne)  
-   Focuses on t-SNE analysis and visualization of neuron activations.
-
-2. [Activation-Extraction](https://github.com/anahita-soltan/CCNL/tree/Activation-Extraction)  
-   For extraction of neuron activations for exploratory data analysis (EDA).
-
-3. [ANOVA-Analysis](https://github.com/anahita-soltan/CCNL/tree/ANOVA-Analysis)  
-   For comparing neuron counts across pre-trained and Adam models using ANOVA.
-
-4. [Tuning-Curves](https://github.com/anahita-soltan/CCNL/tree/Tuning-Curves)  
-   For calculation and visualization of tuning curves for pooled and normalized neurons.
-
-5. [Nasr-analysis](https://github.com/anahita-soltan/CCNL/tree/Nasr-analysis)  
-   Includes analysis and modifications based on the Nasr & Neider (2019) method.
+## Directory Structure
+- **`activation_extraction.py`**: Main script for extracting neuron activations.
+- **`activations/`**: Directory to store the extracted activation data in a structured format for further analysis.

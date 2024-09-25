@@ -1,8 +1,11 @@
-# CCNL
-The project I worked on during my internship in Cognitive Computational Neuroscience Lab of university of Padova.
-It includes analysis of the number neurons in the CORnet model used in https://www.nature.com/articles/s41467-023-39548-5#Sec38 article, using the same method as the one in the article and also some additional analysis.
+# t-SNE Analysis
 
-The Data Source: https://zenodo.org/records/7976287
+This branch contains code and visualizations related to the t-SNE (t-distributed Stochastic Neighbor Embedding) analysis of neuron activations from different layers and models in the CORnet framework.
 
-note: I have changed the name of "epoch1" in the pretrained model directory to "epoch49" to match the rest of the directories for ease of use. The pretrained data is in fact from the epoch1.
+## Overview
+The purpose of this analysis is to reduce the dimensionality of the neuron activations and cluster similar activations for visualization purposes. We employ t-SNE for both 2D and 3D visualizations, enabling us to observe activation patterns across different layers and models.
 
+## Directory Structure
+- **`t-sne.py`**: Main Python script for generating 2D t-SNE visualizations.
+- **`t-sne_IT_3D.py`**: Script for performing 3D t-SNE analysis, particularly on Inferior Temporal (IT) neurons.
+- **`Tsne_Plots/`**: Directory containing the generated t-SNE plots as PNG images.

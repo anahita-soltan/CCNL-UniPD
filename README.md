@@ -1,13 +1,26 @@
-# CCNL
-The project I worked on during my internship in Cognitive Computational Neuroscience Lab of university of Padova.
-It includes analysis of the number neurons in the CORnet model used in https://www.nature.com/articles/s41467-023-39548-5#Sec38 article, using the same method as the one in the article and also some additional analysis.
-The Data Source: https://zenodo.org/records/7976287
+This project was carried out during my internship at the Cognitive Computational Neuroscience Lab (CCNL) at the University of Padova. The focus of the project was to analyze neuron activations and tuning curves in the pre-trained CORnet model, using similar methods described in this Nature article. Additional analyses were performed using data from the same source, available here.
 
-note: I have changed the name of "epoch1" in the pretrained model directory to "epoch49" to match the rest of the directories for ease of use. The pretrained data is in fact from the epoch1.
+Preprocessing Note:
+The pretrained model directory originally labeled epoch1 has been renamed to epoch49 for organizational consistency. However, the data being analyzed still originates from the first epoch (epoch1).
 
-analyses:
-1) t-sne analysis and plots of all layers/models.
-2) Some extraction of activations of neurons for the purpose of exploratory DA.
-3) ANOVA analysis of pretrained and Adam models, with and without Normalization. Plots of ratios of significant neurons in different layers and between models.
-4) Calculation and visualization of Tuning Curves of the pooled & normalized neurons with the same Preferred Number.
-5) Using Nasr&Neider(2019) method to remove Summation Units (monotonic neurons) from the dataset, and recalculating Tuning Curves again with Nasr method. 
+Project Overview
+This repository contains various analyses conducted on neuron activations and models. Each branch focuses on a different aspect of the analysis, with further details in the README files within each branch.
+
+Main Branches
+main
+Contains the core project files and general documentation.
+
+Tsne
+Focuses on t-SNE analysis and visualization of neuron activations.
+
+Activation-Extraction
+For extraction of neuron activations for exploratory data analysis (EDA).
+
+ANOVA-Analysis
+For comparing neuron counts across pre-trained and Adam models using ANOVA.
+
+Tuning-Curves
+For calculation and visualization of tuning curves for pooled and normalized neurons.
+
+Nasr-analysis
+Includes analysis and modifications based on the Nasr & Neider (2019) method.

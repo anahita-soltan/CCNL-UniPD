@@ -14,7 +14,7 @@ This repository contains various analyses conducted on neuron activations and mo
 2. [Activation-Extraction](https://github.com/anahita-soltan/CCNL-Cognitive_Computational_Neuroscience_Lab/tree/Activation-Extraction)  
    For extraction of neuron activations for exploratory data analysis (EDA).
 
-3. [ANOVA-Analysis]([https://github.com/anahita-soltan/CCNL/tree/ANOVA-Analysis](https://github.com/anahita-soltan/CCNL-Cognitive_Computational_Neuroscience_Lab/tree/Anova-analysis)  
+3. [ANOVA-Analysis](https://github.com/anahita-soltan/CCNL-Cognitive_Computational_Neuroscience_Lab/tree/Anova-analysis)  
    For comparing neuron counts across pre-trained and Adam models using ANOVA.
 
 4. [Tuning-Curves](https://github.com/anahita-soltan/CCNL-Cognitive_Computational_Neuroscience_Lab/tree/Tuning-Curves)  

@@ -17,7 +17,7 @@ This repository contains various analyses conducted on neuron activations and mo
 3. [ANOVA-Analysis](https://github.com/anahita-soltan/CCNL-Cognitive_Computational_Neuroscience_Lab/tree/Anova-analysis)  
    For comparing neuron counts across pre-trained and Adam models using ANOVA.
 
-4. [Tuning-Curves](https://github.com/anahita-soltan/CCNL-Cognitive_Computational_Neuroscience_Lab/tree/Tuning-Curves)  
+4. [Tuning-Curves](https://github.com/anahita-soltan/CCNL-Cognitive_Computational_Neuroscience_Lab/tree/Tuning-curves)  
    For calculation and visualization of tuning curves for pooled and normalized neurons.
 
 5. [Nasr-analysis](https://github.com/anahita-soltan/CCNL-Cognitive_Computational_Neuroscience_Lab/tree/Nasr-analysis)  

@@ -3,7 +3,7 @@
 This branch implements the method described in Nasr & Neider (2019) to remove summation units (monotonic neurons) from the dataset and recalculates tuning curves after this refinement.
 Refer to [paper](https://www.science.org/doi/full/10.1126/sciadv.aav7903).
 For access to final results refer to 'No-Monotonic' and 'Pooling&Normalizing' folders in
-[ANOVA Results](https://unipdit-my.sharepoint.com/:u:/g/personal/anahita_soltantouyeh_studenti_unipd_it/EZwM38x6waZCjEiDZtQdRLQB_PKtaybmLSwdpewCH_X0ew?e=MPkazK)
+[Final Results](https://unipdit-my.sharepoint.com/:u:/g/personal/anahita_soltantouyeh_studenti_unipd_it/EZwM38x6waZCjEiDZtQdRLQB_PKtaybmLSwdpewCH_X0ew?e=MPkazK)
 
 ## Overview
 This analysis uses the method described by Nasr & Nieder (2019) to refine and analyze neural activity data from the CORnet model. We first identify and remove monotonic neurons, known as summation units, which respond in a linearly increasing or decreasing manner to stimulus magnitude without selectivity. This filtering process leaves a dataset of neurons with non-monotonic responses, more relevant for understanding stimulus-specific tuning.

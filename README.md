@@ -1,7 +1,7 @@
 # ANOVA Analysis of Neuron Activations
 
 This branch contains scripts for conducting ANOVA (Analysis of Variance) on the neuron activations in response to numerosity extracted from different layers and models. For access to final results refer to:
-(https://unipdit-my.sharepoint.com/:u:/g/personal/anahita_soltantouyeh_studenti_unipd_it/EZwM38x6waZCjEiDZtQdRLQB_PKtaybmLSwdpewCH_X0ew?e=MPkazK)
+[ANOVA Results](https://unipdit-my.sharepoint.com/:u:/g/personal/anahita_soltantouyeh_studenti_unipd_it/EZwM38x6waZCjEiDZtQdRLQB_PKtaybmLSwdpewCH_X0ew?e=MPkazK)
 
 ## Overview
 The ANOVA analysis compares the neuron counts across different models (Pre-trained and trained using Adam optimizer) both with and without normalization. The goal is to determine statistically significant differences in neuron activations across numbers and conditions in the stimuli.

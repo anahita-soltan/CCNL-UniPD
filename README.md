@@ -1,7 +1,7 @@
 # Tuning Curve Analysis
 
-This branch focuses on calculating and visualizing tuning curves for pooled and normalized neurons based on their preferred numerosity, following methods detailed in the Mistry paper. These tuning curves capture the response properties of neurons across various experimental conditions, offering insights into numerosity representation in the CORnet model prior to implementing the Nasr model. For access to final results refer to 'No-Monotonic' and 'Pooling&Normalizing' folders in
-[ANOVA Results](https://unipdit-my.sharepoint.com/:u:/g/personal/anahita_soltantouyeh_studenti_unipd_it/ESQ4FACSGfhEu2Qlz6f2fdgBfKnVg_-AuJR0_Z10cjYK7Q?e=OR3KvO)
+This branch focuses on calculating and visualizing tuning curves for pooled and normalized neurons based on their preferred numerosity, following methods detailed in the Mistry paper. These tuning curves capture the response properties of neurons across various experimental conditions, offering insights into numerosity representation in the CORnet model prior to implementing the Nasr model. For access to final results refer to 'Tuning Curves' and 'Plots' folders in
+[Final Results](https://unipdit-my.sharepoint.com/:u:/g/personal/anahita_soltantouyeh_studenti_unipd_it/ESQ4FACSGfhEu2Qlz6f2fdgBfKnVg_-AuJR0_Z10cjYK7Q?e=OR3KvO)
 
 ## Overview
 

@@ -1,6 +1,6 @@
 # ANOVA Analysis of Neuron Activations
 
-This branch contains scripts for conducting ANOVA (Analysis of Variance) on the neuron activations in response to numerosity extracted from different layers and models. For access to final results refer to:
+This branch contains scripts for conducting ANOVA (Analysis of Variance) on the neuron activations in response to numerosity extracted from different layers and models. For access to final results refer to ANOVA1 and ANOVA2 in
 [ANOVA Results](https://unipdit-my.sharepoint.com/:u:/g/personal/anahita_soltantouyeh_studenti_unipd_it/EZwM38x6waZCjEiDZtQdRLQB_PKtaybmLSwdpewCH_X0ew?e=MPkazK)
 
 ## Overview

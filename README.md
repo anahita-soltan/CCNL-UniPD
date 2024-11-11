@@ -35,6 +35,9 @@ These values are visualized to compare tuning characteristics across different t
 
 ## Directory Structure
 [Nasr-Removing-Summation.py](https://github.com/anahita-soltan/CCNL-Cognitive_Computational_Neuroscience_Lab/blob/Nasr-analysis/Nasr-Removing-Summation.py) Script for identifying and removing monotonic (summation) neurons based on linear regression analysis of their activity patterns.
+
 [Nasr-Pooling&Normalization.py](https://github.com/anahita-soltan/CCNL-Cognitive_Computational_Neuroscience_Lab/blob/Nasr-analysis/Nasr-Pooling%26Normalization.py) Script for pooling and normalizing neuron activations by preferred numerosity, creating standardized tuning curves for each neuron group.
+
 [Nasr-Gaussian-fits.py](https://github.com/anahita-soltan/CCNL-Cognitive_Computational_Neuroscience_Lab/blob/Nasr-analysis/Nasr-Gaussian-fits.py) Script for applying Gaussian fits to the normalized tuning curves, with different scaling transformations and visualizations of fit quality and selectivity (sigma values).
+
 recalculated_tuning_curves/: Directory where the outputs from the tuning curve analysis, including normalized data and Gaussian fits, are stored as .csv files

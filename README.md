@@ -2,7 +2,7 @@
 
 This branch implements the method described in Nasr & Neider (2019) to remove summation units (monotonic neurons) from the dataset and recalculates tuning curves after this refinement.
 Refer to [paper](https://www.science.org/doi/full/10.1126/sciadv.aav7903).
-For access to final results refer to No-Monotonic and Pooling&Normalizing folders in
+For access to final results refer to 'No-Monotonic' and 'Pooling&Normalizing' folders in
 [ANOVA Results](https://unipdit-my.sharepoint.com/:u:/g/personal/anahita_soltantouyeh_studenti_unipd_it/EZwM38x6waZCjEiDZtQdRLQB_PKtaybmLSwdpewCH_X0ew?e=MPkazK)
 
 ## Overview

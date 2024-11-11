@@ -7,27 +7,26 @@ This analysis uses the method described by Nasr & Nieder (2019) to refine and an
 
 Following the removal of summation units, we conduct pooling and normalization of neural responses based on their preferred stimulus number. Finally, we apply Gaussian fits to the normalized tuning curves to quantify the neurons' selective response characteristics.
 
-Why This Is Useful
-This stepwise refinement has several benefits:
+## Why This Is Useful
 
-Enhances Specificity of Tuning: Removing summation units focuses our analysis on neurons with non-monotonic, stimulus-selective responses, which are key for understanding specific numerical encoding.
-Improves Dataset Quality: Normalizing and pooling neuron responses across conditions ensures comparability and reduces variability, while Gaussian fitting allows us to quantify the degree and sharpness of selectivity in these responses.
-Enables Comparisons Across Models: The cleaned and refined data can be used to assess differences in tuning precision across CORnet model variants (e.g., cornet_pretrained and cornet_adam), contributing to our understanding of neural representations in artificial networks.
+**Enhances Specificity of Tuning:** Removing summation units focuses our analysis on neurons with non-monotonic, stimulus-selective responses, which are key for understanding specific numerical encoding.
+**Improves Dataset Quality:** Normalizing and pooling neuron responses across conditions ensures comparability and reduces variability, while Gaussian fitting allows us to quantify the degree and sharpness of selectivity in these responses.
+**Enables Comparisons Across Models:** The cleaned and refined data can be used to assess differences in tuning precision across CORnet model variants (e.g., cornet_pretrained and cornet_adam), contributing to our understanding of neural representations in artificial networks.
 Methodology
-The analysis is conducted in three main steps:
 
-Removing Monotonic (Summation) Neurons:
+## The analysis is conducted in three main steps:
 
+**Removing Monotonic (Summation) Neurons:**
 Each neuron’s response to varying stimulus magnitudes is assessed via linear regression.
 Neurons exhibiting a high linear correlation (e.g., 𝑅2 > 0.5) are marked as monotonic and excluded from further analysis.
 Only neurons tuned to the stimulus extremes (labels 0 or 8) are evaluated for monotonicity, focusing on those most likely to show non-specific response patterns.
-Pooling and Normalizing Neuron Activations:
 
+**Pooling and Normalizing Neuron Activations:**
 For each preferred numerosity, neurons are pooled, and their responses are averaged across stimulus presentations.
 Normalization is applied to bring activations into a common scale, allowing for fair comparisons. Activation values are scaled between the minimum and maximum observed responses.
 This step results in a set of normalized tuning curves for each preferred number, ready for fitting.
-Gaussian Fitting of Tuning Curves:
 
+**Gaussian Fitting of Tuning Curves:**
 Gaussian curves are fitted to the normalized tuning curves to quantify tuning selectivity.
 Different scaling transformations (linear, power, and logarithmic) are applied to assess which provides the best fit.
 Sigma values and goodness-of-fit (R²) are computed for each Gaussian fit, providing insight into the sharpness and reliability of tuning for each scale.

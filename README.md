@@ -1,7 +1,7 @@
 # Nasr, Viswanathan & Neider (2019) Method Application
 
 This branch implements the method described in Nasr & Neider (2019) to remove summation units (monotonic neurons) from the dataset and recalculates tuning curves after this refinement.
-[paper](chrome-extension://oemmndcbldboiebfnladdacbdfmadadm/https://homepages.uni-tuebingen.de/andreas.nieder/Nasr,%20Viswanathan,%20Nieder%20(2019)%20SciAdv.pdf)
+Refer to [paper](chrome-extension://oemmndcbldboiebfnladdacbdfmadadm/https://homepages.uni-tuebingen.de/andreas.nieder/Nasr,%20Viswanathan,%20Nieder%20(2019)%20SciAdv.pdf).
 
 ## Overview
 This analysis uses the method described by Nasr & Nieder (2019) to refine and analyze neural activity data from the CORnet model. We first identify and remove monotonic neurons, known as summation units, which respond in a linearly increasing or decreasing manner to stimulus magnitude without selectivity. This filtering process leaves a dataset of neurons with non-monotonic responses, more relevant for understanding stimulus-specific tuning.
